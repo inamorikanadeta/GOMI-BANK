@@ -1,0 +1,147 @@
+header{
+background-color:beige;
+height:100px;
+
+
+}
+.header-logo{
+    color:crimson;
+  font-size:30px;
+  margin:auto;
+   top:50%; 
+  transform:translate(0,-40%);
+
+}
+.header-logo img{
+transform:translate(0,63px)
+}
+
+.NISA{
+width:300px;
+height:300px;
+position:relative;
+}
+.NISA img{
+width:100%;
+height:auto;
+}
+
+p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:40px;
+    color: rgb(65, 255, 182);
+    padding:0;
+    margin:0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+ul{
+    justify-content: center;
+    display:flex;
+}
+
+.kabu{
+    width:300px;
+    height:300px;
+    position:relative;
+    }
+    .kabu img{
+    width:100%;
+    height:auto;
+    }
+
+    .kabu ul{
+display:inline;
+list-style: none;
+position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:40px;
+    color: rgb(65, 255, 182);
+    padding:0;
+    margin:0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    }
+  
+ .tousi{
+    width:300px;
+     height:300px;
+    position:relative;
+        }
+.tousi img{
+    width:100%;
+    height:auto;
+}
+.tousi ul{
+list-style: none;
+display:inline;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:40px;
+    color: rgb(65, 255, 182);
+    padding:0;
+    margin:0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+        
+ .mane-{
+     width:300px;
+    height:300px;
+    position:relative;
+}
+.mane- img{
+    width:100%;
+    height:auto;
+ }
+
+ h1{
+  
+    text-align:center
+ }
+
+
+
+ 
+ footer{
+    background-color:rgb(106, 129, 129);
+    height:300px;
+ }
+ .footer-logo{
+    padding:50px;
+    text-align:left;
+    transform:translate(0,-20%);
+ }
+ .footer-logo ul{
+display:inline;
+list-style:none;
+ }
+
+ .footer-middle{
+    padding:50px;
+text-align:center;
+transform:translate(0,-150%);
+ }
+ .footer-middle ul{
+display:inline;
+list-style:none;
+ }
+
+
+     .footer-migi{
+    text-align:right;
+    transform:translate(0,-250%);
+    padding:50px;;
+     }
+     .footer-migi ul{
+    display:inline;
+    list-style:none;
+     }
